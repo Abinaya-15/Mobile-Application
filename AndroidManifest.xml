@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andrparking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.andrparking.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.andrparking.Home" android:label="Home"></activity>
+        <activity android:name="com.example.andrparking.CustomPref" android:label="Settings"></activity>
+        <activity android:name="com.example.andrparking.ShowParking" android:label="Parking"></activity>
+        <activity android:name="com.example.andrparking.Hours" android:label="Hours"></activity>
+        <activity android:name="com.example.andrparking.Login" android:label="Login"></activity>
+        <activity android:name="com.example.andrparking.Regn" android:label="Sign Up"></activity>
+        <activity android:name="com.example.andrparking.UserHome" android:label="Home"></activity>
+        <activity android:name="com.example.andrparking.MinPymt" android:label="Payment"></activity>
+        <activity android:name="com.example.andrparking.ViewBooks" android:label="Bookings"></activity>
+        <activity android:name="com.example.andrparking.Pymt" android:label="Payment"></activity>
+        <activity android:name="com.example.andrparking.Pymt1" android:label="Payment"></activity>
+    </application>
+
+</manifest>
